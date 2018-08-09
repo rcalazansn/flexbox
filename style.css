@@ -1,0 +1,41 @@
+html , body, #app {
+    height: 100%;
+    margin: 0px;
+}
+
+#app {
+    display: flex;
+   /* flex-direction: row;*/
+  /*  align-items: center;*/
+   /* justify-content: space-between;*/
+  
+   /* flex-wrap: wrap;
+   align-items: center;
+   align-content: flex-start;
+   justify-content: space-between; */
+}
+
+.box {
+    width:150px;
+    height:60px;
+    margin: 5px;
+    /* flex-grow: 1; */
+     /* flex-shrink: 0;  */
+
+    /* flex: 1; */
+}
+
+.red{
+    background: #f00;
+    order: 1;
+}
+
+.green{
+    background: #0f0;
+    order: 2;
+}
+
+.blue{
+    background: #00f;
+    order: 0;
+}
